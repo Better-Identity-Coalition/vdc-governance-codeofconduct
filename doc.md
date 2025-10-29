@@ -67,6 +67,9 @@
 
 **:question: Questions for reviewers:**
 
+> [!IMPORTANT]
+> To respond to these questions and provide feedback, please create a [new issue](https://github.com/Better-Identity-Coalition/vdc-governance-codeofconduct/issues/new?template=feedback.yml) and add comments as you are reviewing.
+
 - ***What should the process to revise the Code look like?***
 - ***How frequently should we add new use cases***
 - ***Is an every-6-months update sufficient? Every 3 months***
