@@ -1,0 +1,34 @@
+name: "Feedback"
+description: "Feedback on the document"
+labels:
+  - feedback
+  - needs-review
+body:
+  - type: textarea
+    id: use-case-restrictions
+    validations:
+      required: false
+    attributes:
+      label: Response
+      description: "Should the Code state that if a use case is not specifically called out above, it is restricted? Or should it be more open?"
+  - type: textarea
+    id: revise-process
+    validations:
+      required: false
+    attributes:
+      label: Response
+      description: "What should the process to revise the Code look like?"
+  - type: textarea
+    id: new-freq
+    validations:
+      required: false
+    attributes:
+      label: Response
+      description: "How frequently should we add new use cases? Is an every-6-months update sufficient? Every 3 months?"
+  - type: textarea
+    id: specify-criteria
+    validations:
+      required: false
+    attributes:
+      label: Response
+      description: "Do we need to specify more here in the Code in terms of criteria for approving new use cases (or modifying existing ones), or can we put it in the form (which we have yet to create)?"
