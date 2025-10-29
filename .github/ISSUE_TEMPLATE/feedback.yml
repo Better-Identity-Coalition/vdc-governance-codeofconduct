@@ -41,3 +41,35 @@ body:
       required: false
     attributes:
       label: "Do we need to specify more here in the Code in terms of criteria for approving new use cases (or modifying existing ones), or can we put it in the form (which we have yet to create)?"
+  - type: textarea
+    id: terminology
+    validations:
+      required: false
+    attributes:
+      label: "What other terminology and definitions are needed? Are there pre-existing definitions in other publications or bodies that we should use here, rather than create our own?"
+  - type: textarea
+    id: adherence
+    validations:
+      required: false
+    attributes:
+      label: "What would be the best way for an entity to show adherence to the code? Could it be done, for example, by referencing the code in the entity’s terms of service or privacy policy? What other approaches would make sense?"
+  - type: textarea
+    id: threshold
+    validations:
+      required: false
+    attributes:
+      label: "Should there be a threshold for restructuring use cases? Our intent is to focus on use cases that are not widely available in a fully online environment today for consumers because firms have a reason to ask for ID - not to create a loophole that will allow for VDCs to be used in any situation."
+  - type: textarea
+    id: prohibit-discourage
+    validations:
+      required: false
+    attributes:
+      label: "Should wallets prohibit use of ID in these situations, or should there be options for individuals to still choose to share their data if they insist on doing so? Could/should individuals be discouraged from sharing data with pop-ups and other warnings - but still be allowed to share if they choose to ignore them?"
+      description: >-
+        As noted earlier, the purpose of the Code is to create a tool that wallet providers and other stakeholders in the identity ecosystem can use as a way to prevent inappropriate requests for ID - however, we are trying to balance that with arguments that some are making that individual users should have the right to make their own decisions - even if they are “bad” ones. 
+        
+        We have also heard from some issuers that they are not comfortable imposing any restrictions on how individuals can use their VDC - raising questions about what sorts of limits wallet providers can impose on the use of a credential without some sort of tacit (if not explicit) approval from the credential’s issuer.
+        
+        This is one of the trickiest issues to resolve - we welcome ideas! 
+
+
