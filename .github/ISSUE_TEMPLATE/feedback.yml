@@ -1,5 +1,6 @@
 name: "Feedback"
 description: "Feedback on the document"
+title: "Document feedback from <YOUR NAME HERE>"
 labels:
   - feedback
   - needs-review
