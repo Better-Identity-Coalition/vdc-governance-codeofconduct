@@ -65,11 +65,17 @@ body:
       required: false
     attributes:
       label: "Should wallets prohibit use of ID in these situations, or should there be options for individuals to still choose to share their data if they insist on doing so? Could/should individuals be discouraged from sharing data with pop-ups and other warnings - but still be allowed to share if they choose to ignore them?"
-      description: >-
-        As noted earlier, the purpose of the Code is to create a tool that wallet providers and other stakeholders in the identity ecosystem can use as a way to prevent inappropriate requests for ID - however, we are trying to balance that with arguments that some are making that individual users should have the right to make their own decisions - even if they are “bad” ones. 
-        
-        We have also heard from some issuers that they are not comfortable imposing any restrictions on how individuals can use their VDC - raising questions about what sorts of limits wallet providers can impose on the use of a credential without some sort of tacit (if not explicit) approval from the credential’s issuer.
-        
-        This is one of the trickiest issues to resolve - we welcome ideas! 
-
+      description: "As noted earlier, the purpose of the Code is to create a tool that wallet providers and other stakeholders in the identity ecosystem can use as a way to prevent inappropriate requests for ID - however, we are trying to balance that with arguments that some are making that individual users should have the right to make their own decisions - even if they are “bad” ones. We have also heard from some issuers that they are not comfortable imposing any restrictions on how individuals can use their VDC - raising questions about what sorts of limits wallet providers can impose on the use of a credential without some sort of tacit (if not explicit) approval from the credential’s issuer. This is one of the trickiest issues to resolve - we welcome ideas!"
+   - type: textarea
+    id: additional
+    validations:
+      required: false
+    attributes:
+      label: "The examples included are an early start on the use cases – there may be more in these verticals that we have not yet identified. Please let us know if there are others that should be considered for inclusion."
+   - type: textarea
+    id: comments
+    validations:
+      required: false
+    attributes:
+      label: "Any additional comments?"
 
