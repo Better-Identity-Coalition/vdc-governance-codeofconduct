@@ -4,4 +4,4 @@
 
 💬 Provide feedback here: [New Issue](https://github.com/Better-Identity-Coalition/vdc-governance-codeofconduct/issues/new?template=feedback.yml)
 
-[🏠 Better Identity Coalition](https://www.betteridentity.org)
+🏠 [Better Identity Coalition](https://www.betteridentity.org)
