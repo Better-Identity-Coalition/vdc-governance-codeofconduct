@@ -1,0 +1,6 @@
+# root = true indicates that this is the top-most .editorconfig file
+root = true
+
+[*.md]
+# Overrides for Markdown files, if you want different behavior for specific file types
+trim_trailing_whitespace = false
